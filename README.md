@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vector Similarity Fundamentals for Data Science
 
 This project is part of my journey learning data science in public.
@@ -131,3 +132,6 @@ python examples/recommendation_example.py
 - Add user input directly from terminal
 - Expand recommendation system complexity
 - Connect vector similarity to machine learning workflows
+=======
+# vector-basics-data-science
+>>>>>>> f10cdc1a762b7844f5955f2a1ba645dde66b2825
