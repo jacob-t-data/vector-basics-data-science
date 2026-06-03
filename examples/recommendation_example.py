@@ -1,11 +1,13 @@
 import sys
 from pathlib import Path
+
 import numpy as np
 
 # Allow imports from parent directory
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from vector_utils import cosine_similarity
+
 
 # User preference vector
 user = np.array([5, 3, 0])
@@ -24,10 +26,7 @@ print("\nFinal Recommendation:\n")
 
 if movie_1_score > movie_2_score:
     print("Recommended: Movie 1")
-    print()
 elif movie_2_score > movie_1_score:
     print("Recommended: Movie 2")
-    print()
 else:
     print("Both movies are equally similar.")
-    print()
